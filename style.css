@@ -1,0 +1,8 @@
+body {
+    text-align: center;
+color: antiquewhite;
+    height: 90vh;
+    padding-top: 300px;
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 19%, rgba(0,212,255,1) 100%);
+}
+
