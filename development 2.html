@@ -7,32 +7,63 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <h3>WIREFRAMING</h3>
-    <h4>DEVELOPEMENT</h4>
-    <p>this is the code which greets the user and asks the user for there name </p>
-    <img src="capture.png">
-    <p>this code greets the user and tels them its time to play hangman</p>
-    <img src="hellohangman.png">
-    <p>this code is to ask the users what difficulty they are planing to play</p>
-    <img src="diffcultymodes.png">
-    <h4>TESTING</h4>
-    <p>I got the computer to greet and ask name on the first try</p>
-    <img src="whatsname.png">
-    <p>i got it to greet the user properly</p>
-    <img src="hello.png">
-    <p>it asking what difficulty corectly</p>
-    <img src="difficulyselection.png">
-    <h4>FEEDBACK</h4>
-    <p>i dont know why but its not giving a gap between the text and the next question</p>
-    <img src="difficulyselection.png">
-    <p>miss told me to change the if statements to elif to save the computer time and add a else statement incase something else happens</p>
-    <img src="elif feedback.png">
-    <h4>IMPROVEMENTS</h4>
-    <P>random textrandom textrandom textrandom textrandom text</P>
-    <img src="download.jfif">
-    <p>i changed the ifs to elifs and added a else statement</p>
-    <img src="elifelsefeedback.png">
-    <br>
-    <a href="page2.html">Progect 1</a>
-</body>
-</html>
+
+    <table>
+ 
+        <thead>
+          <tr>
+            <th>Test/Input</th>
+            <th>Expectation</th>
+            <th>Output</th>
+          </tr>
+        </thead>
+    
+        <!-- Test 1 -->
+        <tr>
+          <td>"reilly"</td> <!-- Input -->
+          <td>it welcomes reilly to the game</td><!-- cExpectation -->
+          <td><img class="output" src="hello.png"/></td><!-- Output/Screenshot -->
+        </tr>
+    
+        <!-- Test 2 -->
+        <tr>
+            <td>"a"</td> <!-- Input -->
+            <td>it selects easy mode on the diffuculty</td><!-- cExpectation -->
+            <td><img class="output" src="a.png"/></td><!-- Output/Screenshot -->
+          </tr>
+    
+        <!-- Test 3 -->
+        <tr>
+            <td>"b"</td> <!-- Input -->
+            <td>it selects medium mode on the diffuculty</td><!-- cExpectation -->
+            <td><img class="output" src="b.png"/></td><!-- Output/Screenshot -->
+          </tr>
+    
+        <!-- Test 4 -->
+        <tr>
+            <td>"c"</td> <!-- Input -->
+            <td>it selects hard mode on the diffuculty</td><!-- cExpectation -->
+            <td><img class="output" src="c.png"/></td><!-- Output/Screenshot -->
+          </tr>
+        <!-- Test 5 -->
+        <tr>
+            <td>"d"</td> <!-- Input -->
+            <td>it selects extreme mode on the diffuculty</td><!-- cExpectation -->
+            <td><img class="output" src="d.png"/></td><!-- Output/Screenshot -->
+          </tr>
+        <!-- Test 6 -->
+        <tr>
+            <td>"else"</td> <!-- Input -->
+            <td>if the user doesnt type a b c or d select medium as default</td><!-- cExpectation -->
+            <td><img class="output" src="autoselect.png"/></td><!-- Output/Screenshot -->
+        </tr>
+        <!-- Test 7 -->
+        <tr>
+            <td>"capital letter"</td> <!-- Input -->
+            <td>if users typer capital C or A etc does it still work</td><!-- cExpectation -->
+            <td><img class="output" src="capital.png"/></td><!-- Output/Screenshot -->
+        </tr>
+    
+      </table>
+
+    
